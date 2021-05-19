@@ -12,7 +12,6 @@ class SelectedBeast extends React.Component {
 
  
     render() {
-        //    <HornedBeasts controllingShowModal={this.handlemodal}></HornedBeasts>
         return (
             <>
 
