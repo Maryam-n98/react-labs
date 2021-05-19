@@ -10,27 +10,7 @@ class SelectedBeast extends React.Component {
 
 
 
-    // constructor(props) {
-    //     super(props)
-    //     this.state = {
-    //         show: false
-    //     }
-
-    // }
-    // handlemodal = () => {
-        
-    //     this.setState({ show: true })
-
-
-    // }
-
-
-    // // handlemodal()
-
-    // handleClose = () => {
-    //     this.setState({ show: false })
-    // }
-
+ 
     render() {
         //    <HornedBeasts controllingShowModal={this.handlemodal}></HornedBeasts>
         return (
