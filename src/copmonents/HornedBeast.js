@@ -17,12 +17,16 @@ class HornedBeast extends React.Component {
       numberOfVote: this.state.numberOfVote + 1,
     })
   }
+  prop3Function=(para1,para2,para3)=>{
+    this.props.prop2Function(para1,para2,para3);
+    
+}
   render() {
     return (
       <div className='honers'>
 
         <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={this.props.imgUrl} />
+          <Card.Img onClick={()=>this.prop3Function(555,77,88)} src={this.props.image_url} />
           <Card.Body>
             <Card.Title>{this.props.title}</Card.Title>
             <Card.Text>
