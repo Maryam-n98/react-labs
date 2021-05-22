@@ -4,7 +4,6 @@ import Main from './copmonents/Main';
 import Footer from './copmonents/Footer';
 import hornedDataApp from './copmonents/HornedData.json';
 import SelectedBeast from './copmonents/SelectedBeast';
-import FormData from './copmonents/FormData';
 // import HornedBeast from './copmonents/HornedBeast';
 
 
@@ -53,7 +52,6 @@ class App extends React.Component{
     return (
       <>
          <Header></Header>
-         <FormData/>
          <Main hornedDataMain={this.state.hornedData} functionProp={this.changingStateDataFunction}></Main>
          <SelectedBeast SelectedBeastContent={this.state.SelectedBeastContentFromState} SelectedBeastContent2={this.state.SelectedBeastContentFromState2} SelectedBeastContent3={this.state.SelectedBeastContentFromState3} modalShowFunction={this.modalShowFunction}> </SelectedBeast>
          <Footer></Footer>
